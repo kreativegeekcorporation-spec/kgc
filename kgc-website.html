@@ -190,8 +190,16 @@ footer{background:#060606;border-top:1.5px solid rgba(255,255,255,0.06);padding:
 }
   nav{padding:0 20px}
   .nav-links{display:block}
-  #hero{grid-template-columns:1fr;padding:88px 20px 52px;gap:40px}
-  .terminal-wrap{display:none}
+  #hero{
+        grid-template-columns:55% 45%;
+        gap:20px;
+        align-items:center;
+    }
+
+    .terminal{
+        transform:scale(.6);
+        transform-origin:top left;
+    }
   section,#contact,#why,#services{padding:64px 20px}
   .section-head{flex-direction:column;align-items:flex-start}
   .cards-grid{grid-template-columns:1fr}
