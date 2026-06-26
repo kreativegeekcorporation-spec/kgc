@@ -190,16 +190,33 @@ footer{background:#060606;border-top:1.5px solid rgba(255,255,255,0.06);padding:
 }
   nav{padding:0 20px}
   .nav-links{display:block}
-  #hero{
-        grid-template-columns:55% 45%;
-        gap:20px;
+ #hero{
+        grid-template-columns:60% 40%;
+        gap:10px;
+        padding:80px 15px 40px;
         align-items:center;
     }
 
-    .terminal{
-        transform:scale(.6);
-        transform-origin:top left;
+    h1{
+        font-size:34px;
+        letter-spacing:-1px;
     }
+
+    .hero-body{
+        font-size:13px;
+        line-height:1.5;
+    }
+
+    .terminal-wrap{
+        display:block;
+    }
+
+    .terminal{
+        transform:scale(.55);
+        transform-origin:top left;
+        width:480px;
+    }
+  
   section,#contact,#why,#services{padding:64px 20px}
   .section-head{flex-direction:column;align-items:flex-start}
   .cards-grid{grid-template-columns:1fr}
